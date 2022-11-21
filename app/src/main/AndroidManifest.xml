@@ -3,6 +3,7 @@
     package="com.aad.project.phase.jair">
 
     <application
+        android:name=".ui.JairApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
