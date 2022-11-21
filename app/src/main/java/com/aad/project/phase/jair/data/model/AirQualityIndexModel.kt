@@ -8,5 +8,4 @@ data class AirQualityIndexModel(
     val city: String = "",
     val airQualityPercentage : Int = 0,
     val airQualityDetails : List<AirQualityIndexDetails>
-
 )

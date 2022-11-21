@@ -73,18 +73,98 @@ object AirQualityIndexData {
             )
         ))
 
+        airQualityIndexData.add(AirQualityIndexModel(
+            "Niger, NG",
+            10,
+            listOf(
+                AirQualityIndexDetails(
+                    "Air quality is bad",
+                    null
+                ),
+                AirQualityIndexDetails(
+                    "Recommendations",
+                    "Air pollution is can harm your health at this point," +
+                            " please leave this area"
+                )
+            )
+        ))
 
+        airQualityIndexData.add(AirQualityIndexModel(
+            "Bayelsa, NG",
+            65,
+            listOf(
+                AirQualityIndexDetails(
+                    "Air quality is Good",
+                    null
+                ),
+                AirQualityIndexDetails(
+                    "Recommendations",
+                    "Air pollution is little, please put on a face mask or handkerchief"
+                )
+            )
+        ))
 
+        airQualityIndexData.add(AirQualityIndexModel(
+            "Edo benin, NG",
+            99,
+            listOf(
+                AirQualityIndexDetails(
+                    "Air quality is Excellent",
+                    null
+                ),
+                AirQualityIndexDetails(
+                    "Recommendations",
+                    "Air pollution is of no harm"
+                )
+            )
+        ))
 
+        airQualityIndexData.add(AirQualityIndexModel(
+            "Anambra, NG",
+            25,
+            listOf(
+                AirQualityIndexDetails(
+                    "Air quality is poor",
+                    null
+                ),
+                AirQualityIndexDetails(
+                    "Recommendations",
+                    "Air pollution is could cause risk to the health, please leave this area"
+                )
+            )
+        ))
 
+        airQualityIndexData.add(AirQualityIndexModel(
+            "Abuja, NG",
+            85,
+            listOf(
+                AirQualityIndexDetails(
+                    "Air quality is Good",
+                    null
+                ),
+                AirQualityIndexDetails(
+                    "Recommendations",
+                    "Air pollution is little, it's has no serious harm to health"
+                )
+            )
+        ))
 
-
-
-
+        airQualityIndexData.add(AirQualityIndexModel(
+            "Abia, NG",
+            70,
+            listOf(
+                AirQualityIndexDetails(
+                    "Air quality is Good",
+                    null
+                ),
+                AirQualityIndexDetails(
+                    "Recommendations",
+                    "Air pollution is little, it's has no serious harm to health"
+                )
+            )
+        ))
 
         return airQualityIndexData
 
     }
-
-
 }

@@ -5,8 +5,10 @@ import android.os.Bundle
 import android.util.Log
 import com.aad.project.phase.jair.R
 import com.aad.project.phase.jair.data.AirQualityIndexData
+import dagger.hilt.android.AndroidEntryPoint
 import java.util.*
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val p = AirQualityIndexData.getAirQualityIndexData()
 
-        val ranInt =  Random().nextInt(4)
+        val ranInt =  Random().nextInt(10)
 
         val city =  p[ranInt].city
         val air =  p[ranInt].airQualityPercentage
